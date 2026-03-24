@@ -107,6 +107,24 @@ $user_name = $_SESSION['name'];
                 </div>
             </div>
 
+            <!-- Somobloom Online Exams Tracker -->
+            <div class="bg-white rounded-lg shadow border-t-4 border-indigo-500 p-6 md:col-span-2 flex flex-col md:flex-row items-center justify-between">
+                <div>
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Somobloom Online Exams</h2>
+                    <p class="text-gray-600 text-sm max-w-xl">
+                        Access your fully detailed student portal to take exams, view past results, and manage your online assessments safely on the Somobloom platform.
+                    </p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <a href="https://somobloom.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 shadow-sm transition duration-150 ease-in-out">
+                        Take an Exam
+                        <svg class="ml-2 -mr-1 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
         </div>
 
     </div>
